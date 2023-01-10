@@ -20,7 +20,7 @@ To **predict whether the SpaceX Falcon 9 first stage will successfully land**. T
       - launches on each site
       - occurrence of each orbit
       - occurrence of mission outcome per orbit type
-   - Create a landing outcome label that shows the following:
+   - Create a landing outcome label that shows:
       - 0 when the booster did not land successfully
       - 1 when the booster did land successfully
 3. [Exploratory Data Analysis](https://github.com/victorbpeterson/SpaceX-Falcon-9-Landing-Analysis/tree/main/3.%20Exploratory%20Data%20Analysis)
