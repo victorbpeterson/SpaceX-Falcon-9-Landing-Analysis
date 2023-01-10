@@ -11,10 +11,10 @@ Much of these savings come from the fact that SpaceX can reuse the first stage o
 To **predict whether the SpaceX Falcon 9 first stage will successfully land**. Then using this prediction, we can determine the cost of the launch, and assess whether an alternative company should bid against SpaceX.
 
 ## Project Layout
-1. [Data Collection]()
+1. [Data Collection](https://github.com/victorbpeterson/SpaceX-Falcon-9-Landing-Analysis/tree/main/1.%20Data%20Collection)
    - Make GET requests to the SpaceX API
    - Perform web scraping to collect historical launch records
-2. [Data Wrangling]()
+2. [Data Wrangling](https://github.com/victorbpeterson/SpaceX-Falcon-9-Landing-Analysis/tree/main/2.%20Data%20Wrangling)
    - Replace missing values with the mean
    - Determine the count of:
       - launches on each site
@@ -23,13 +23,13 @@ To **predict whether the SpaceX Falcon 9 first stage will successfully land**. T
    - Create a landing outcome label that shows the following:
       - 0 when the booster did not land successfully
       - 1 when the booster did land successfully
-3. [Exploratory Data Analysis]()
+3. [Exploratory Data Analysis](https://github.com/victorbpeterson/SpaceX-Falcon-9-Landing-Analysis/tree/main/3.%20Exploratory%20Data%20Analysis)
    - Use SQL queries to investigate and evaluate the data
    - Use Seaborn and Matplotlib to visualize relationships between attributes and apply OneHotEncoder
-4. [Interactive Visual Analytics]()
+4. [Interactive Visual Analytics](https://github.com/victorbpeterson/SpaceX-Falcon-9-Landing-Analysis/tree/main/4.%20Interactive%20Visual%20Analytics)
    - Build a dashboard with Plotly Dash to analyze launch records interactively
    - Build an interactive map with Folium to analyze the launch site proximity
-5. [Predictive Analysis (Classification)]()
+5. [Predictive Analysis (Classification)](https://github.com/victorbpeterson/SpaceX-Falcon-9-Landing-Analysis/tree/main/5.%20Predictive%20Analysis%20(Classification))
    - Standardize the data
    - Split data into training and test data
    - Train different classification models
